@@ -15,6 +15,6 @@ spec:
         app: demospringalien
     spec:
       containers:
-      - image: sampath5/springalien
+      - image: simhalp9/dockerweb
         name: demospringalien
         
