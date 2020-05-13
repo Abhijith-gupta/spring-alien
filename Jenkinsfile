@@ -1,6 +1,6 @@
 pipeline{
   environment {
-    registry = "simhalp9/dockerweb"
+    registry = "simhalp9/dockerwebtest"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
