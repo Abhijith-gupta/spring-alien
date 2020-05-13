@@ -8,12 +8,12 @@ pipeline{
     stages {
         stage('clean') {
             steps {
-                sh 'mvn clean'
+                bat 'mvn clean'
             }
         }
         stage('build and test') {
             steps {
-                sh 'mvn package'
+                bat 'mvn package'
             }
         }
         stage('Building image') {
@@ -34,8 +34,8 @@ pipeline{
             }
       stage('Deploying into k8s'){
         steps{
-          sh 'kubectl apply -f deployment.yml'
-          sh 'kubectl apply -f service.yml'
+          bat 'kubectl apply -f deployment.yml'
+          bat 'kubectl apply -f service.yml'
         }
       }
       }
