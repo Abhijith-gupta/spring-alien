@@ -15,6 +15,6 @@ spec:
         app: demospringalien
     spec:
       containers:
-      - image: simhalp9/springalien
+      - image: sampath5/springalien
         name: demospringalien
         
