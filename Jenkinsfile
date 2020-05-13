@@ -1,6 +1,6 @@
 pipeline{
   environment {
-    registry = "sampath5/springalien"
+    registry = "simhalp9/dockerweb"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
